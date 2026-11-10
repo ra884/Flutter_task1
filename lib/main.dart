@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:stateful_task/cartpage.dart';
+import 'package:stateful_task/home.dart';
 import 'package:stateful_task/scoreboard.dart';
 
 void main() {
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ScoreBoard(),
+      home: CartPage(),
     );
   }
 }
